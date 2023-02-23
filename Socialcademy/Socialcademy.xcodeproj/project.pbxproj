@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3F5B93D929A6DA960019CEEC /* SocialcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B93D829A6DA960019CEEC /* SocialcademyApp.swift */; };
-		3F5B93DB29A6DA960019CEEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B93DA29A6DA960019CEEC /* ContentView.swift */; };
 		3F5B93DD29A6DA960019CEEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B93DC29A6DA960019CEEC /* Assets.xcassets */; };
 		3F5B93E029A6DA960019CEEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B93DF29A6DA960019CEEC /* Preview Assets.xcassets */; };
 		3F5B93EA29A6DA960019CEEC /* SocialcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B93E929A6DA960019CEEC /* SocialcademyTests.swift */; };
 		3F5B93F429A6DA960019CEEC /* SocialcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B93F329A6DA960019CEEC /* SocialcademyUITests.swift */; };
 		3F5B93F629A6DA960019CEEC /* SocialcademyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B93F529A6DA960019CEEC /* SocialcademyUITestsLaunchTests.swift */; };
+		3F7D946329A6F1ED0079A466 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3F7D946229A6F1ED0079A466 /* FirebaseAnalytics */; };
+		3F7D946529A6F1ED0079A466 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F7D946429A6F1ED0079A466 /* FirebaseFirestore */; };
+		3F7D946729A6F1ED0079A466 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F7D946629A6F1ED0079A466 /* FirebaseFirestoreSwift */; };
+		3F7D946929A6F23F0079A466 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D946829A6F23F0079A466 /* GoogleService-Info.plist */; };
+		3F7D947029A6F33D0079A466 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D946F29A6F33D0079A466 /* Post.swift */; };
+		3F7D947229A6F3C80079A466 /* PostsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D947129A6F3C80079A466 /* PostsList.swift */; };
+		3F7D947429A6F5900079A466 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D947329A6F5900079A466 /* PostRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		3F5B93D529A6DA960019CEEC /* Socialcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socialcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5B93D829A6DA960019CEEC /* SocialcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyApp.swift; sourceTree = "<group>"; };
-		3F5B93DA29A6DA960019CEEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F5B93DC29A6DA960019CEEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F5B93DF29A6DA960019CEEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F5B93E529A6DA960019CEEC /* SocialcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialcademyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,10 @@
 		3F5B93EF29A6DA960019CEEC /* SocialcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialcademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5B93F329A6DA960019CEEC /* SocialcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyUITests.swift; sourceTree = "<group>"; };
 		3F5B93F529A6DA960019CEEC /* SocialcademyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialcademyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F7D946829A6F23F0079A466 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F7D946F29A6F33D0079A466 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3F7D947129A6F3C80079A466 /* PostsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsList.swift; sourceTree = "<group>"; };
+		3F7D947329A6F5900079A466 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7D946329A6F1ED0079A466 /* FirebaseAnalytics in Frameworks */,
+				3F7D946529A6F1ED0079A466 /* FirebaseFirestore in Frameworks */,
+				3F7D946729A6F1ED0079A466 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				3F5B93D829A6DA960019CEEC /* SocialcademyApp.swift */,
-				3F5B93DA29A6DA960019CEEC /* ContentView.swift */,
-				3F5B93DC29A6DA960019CEEC /* Assets.xcassets */,
+				3F7D946C29A6F30C0079A466 /* Models */,
+				3F7D946B29A6F2820079A466 /* Resources */,
+				3F7D946A29A6F26A0079A466 /* Views */,
 				3F5B93DE29A6DA960019CEEC /* Preview Content */,
 			);
 			path = Socialcademy;
@@ -127,6 +140,32 @@
 			path = SocialcademyUITests;
 			sourceTree = "<group>";
 		};
+		3F7D946A29A6F26A0079A466 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D947129A6F3C80079A466 /* PostsList.swift */,
+				3F7D947329A6F5900079A466 /* PostRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F7D946B29A6F2820079A466 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D946829A6F23F0079A466 /* GoogleService-Info.plist */,
+				3F5B93DC29A6DA960019CEEC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F7D946C29A6F30C0079A466 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D946F29A6F33D0079A466 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +182,11 @@
 			dependencies = (
 			);
 			name = Socialcademy;
+			packageProductDependencies = (
+				3F7D946229A6F1ED0079A466 /* FirebaseAnalytics */,
+				3F7D946429A6F1ED0079A466 /* FirebaseFirestore */,
+				3F7D946629A6F1ED0079A466 /* FirebaseFirestoreSwift */,
+			);
 			productName = Socialcademy;
 			productReference = 3F5B93D529A6DA960019CEEC /* Socialcademy.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +259,9 @@
 				Base,
 			);
 			mainGroup = 3F5B93CC29A6DA960019CEEC;
+			packageReferences = (
+				3F7D946129A6F1ED0079A466 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3F5B93D629A6DA960019CEEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +280,7 @@
 			files = (
 				3F5B93E029A6DA960019CEEC /* Preview Assets.xcassets in Resources */,
 				3F5B93DD29A6DA960019CEEC /* Assets.xcassets in Resources */,
+				3F7D946929A6F23F0079A466 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5B93DB29A6DA960019CEEC /* ContentView.swift in Sources */,
+				3F7D947029A6F33D0079A466 /* Post.swift in Sources */,
 				3F5B93D929A6DA960019CEEC /* SocialcademyApp.swift in Sources */,
+				3F7D947429A6F5900079A466 /* PostRow.swift in Sources */,
+				3F7D947229A6F3C80079A466 /* PostsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +627,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F7D946129A6F1ED0079A466 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F7D946229A6F1ED0079A466 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F7D946129A6F1ED0079A466 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3F7D946429A6F1ED0079A466 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F7D946129A6F1ED0079A466 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3F7D946629A6F1ED0079A466 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F7D946129A6F1ED0079A466 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F5B93CD29A6DA960019CEEC /* Project object */;
 }
