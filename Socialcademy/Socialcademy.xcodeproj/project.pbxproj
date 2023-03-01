@@ -34,6 +34,7 @@
 		3F7D949229AEE5080079A466 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949129AEE5080079A466 /* AuthView.swift */; };
 		3F7D949429AEE5E20079A466 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949329AEE5E20079A466 /* ProfileView.swift */; };
 		3F7D949629AEF2670079A466 /* FormVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949529AEF2670079A466 /* FormVIewModel.swift */; };
+		3F7D949829AF96730079A466 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949729AF96730079A466 /* PrimaryButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		3F7D949129AEE5080079A466 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		3F7D949329AEE5E20079A466 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3F7D949529AEF2670079A466 /* FormVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVIewModel.swift; sourceTree = "<group>"; };
+		3F7D949729AF96730079A466 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 			children = (
 				3F7D948129A80F7D0079A466 /* EmptyListView.swift */,
 				3F7D948329A854A50079A466 /* Alert+Error.swift */,
+				3F7D949729AF96730079A466 /* PrimaryButtonStyle.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7D949829AF96730079A466 /* PrimaryButtonStyle.swift in Sources */,
 				3F7D948629A8F9B50079A466 /* PostRowViewModel.swift in Sources */,
 				3F7D947029A6F33D0079A466 /* Post.swift in Sources */,
 				3F5B93D929A6DA960019CEEC /* SocialcademyApp.swift in Sources */,

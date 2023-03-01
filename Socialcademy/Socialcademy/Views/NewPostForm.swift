@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct NewPostForm: View {
-    typealias CreateAction = (Post) async throws -> Void
-    
-    let createAction: CreateAction
-    
     @State private var post = Post(title: "", content: "", authorName: "")
     @State private var state = FormState.idle
     
     @Environment(\.dismiss) private var dismiss
+    
+    typealias CreateAction = (Post) async throws -> Void
+     
+    let createAction: CreateAction
     
     var body: some View {
         NavigationView {
@@ -64,8 +64,6 @@ struct NewPostForm: View {
     }
 }
 
-// MARK: - FormState
-
 private extension NewPostForm {
     enum FormState {
         case idle, working, error
@@ -81,7 +79,6 @@ private extension NewPostForm {
         }
     }
 }
-
 
 struct NewPostForm_Previews: PreviewProvider {
     static var previews: some View {
