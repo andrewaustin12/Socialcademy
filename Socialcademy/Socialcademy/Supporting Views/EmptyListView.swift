@@ -11,7 +11,7 @@ struct EmptyListView: View {
     let title: String
     let message: String
     var retryAction: (() -> Void)?
- 
+    
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             Text(title)
@@ -38,13 +38,13 @@ struct EmptyListView: View {
 struct EmptyListView_Previews: PreviewProvider {
     static var previews: some View {
         EmptyListView(
-                    title: "Cannot Load Posts",
-                    message: "Something went wrong while loading posts. Please check your Internet connection.",
-                    retryAction: {}
-                )
-                EmptyListView(
-                    title: "No Posts",
-                    message: "There aren’t any posts yet."
-                )
+            title: "Cannot Load Posts",
+            message: "Something went wrong while loading posts. Please check your Internet connection.",
+            retryAction: {}
+        )
+        EmptyListView(
+            title: "No Posts",
+            message: "There aren’t any posts yet."
+        )
     }
 }

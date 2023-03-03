@@ -11,8 +11,8 @@ import FirebaseAuth
 struct ProfileView: View {
     var body: some View {
         Button("Sign Out", action: {
-                try! Auth.auth().signOut()
-            })
+            try! Auth.auth().signOut()
+        })
     }
 }
 
