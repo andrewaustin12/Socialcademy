@@ -37,6 +37,13 @@
 		3F7D949829AF96730079A466 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949729AF96730079A466 /* PrimaryButtonStyle.swift */; };
 		3F7D949A29AFF7720079A466 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949929AFF7720079A466 /* User.swift */; };
 		3F7D949C29B030680079A466 /* ViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949B29B030680079A466 /* ViewModelFactory.swift */; };
+		3F7D949E29B395930079A466 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949D29B395930079A466 /* Comment.swift */; };
+		3F7D94A029B3963B0079A466 /* CommentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D949F29B3963B0079A466 /* CommentsRepository.swift */; };
+		3F7D94A229B39C150079A466 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D94A129B39C150079A466 /* CommentsViewModel.swift */; };
+		3F7D94A429B39D6E0079A466 /* CommentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D94A329B39D6E0079A466 /* CommentsList.swift */; };
+		3F7D94A629B39FF50079A466 /* CommentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D94A529B39FF50079A466 /* CommentRow.swift */; };
+		3F7D94A829B3AA1A0079A466 /* CommentRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D94A729B3AA1A0079A466 /* CommentRowViewModel.swift */; };
+		3F7D94AA29B3AC5F0079A466 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D94A929B3AC5F0079A466 /* ErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +93,13 @@
 		3F7D949729AF96730079A466 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		3F7D949929AFF7720079A466 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F7D949B29B030680079A466 /* ViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFactory.swift; sourceTree = "<group>"; };
+		3F7D949D29B395930079A466 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3F7D949F29B3963B0079A466 /* CommentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsRepository.swift; sourceTree = "<group>"; };
+		3F7D94A129B39C150079A466 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		3F7D94A329B39D6E0079A466 /* CommentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsList.swift; sourceTree = "<group>"; };
+		3F7D94A529B39FF50079A466 /* CommentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRow.swift; sourceTree = "<group>"; };
+		3F7D94A729B3AA1A0079A466 /* CommentRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRowViewModel.swift; sourceTree = "<group>"; };
+		3F7D94A929B3AC5F0079A466 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +203,8 @@
 				3F7D948729AECEB30079A466 /* MainTabView.swift */,
 				3F7D949129AEE5080079A466 /* AuthView.swift */,
 				3F7D949329AEE5E20079A466 /* ProfileView.swift */,
+				3F7D94A329B39D6E0079A466 /* CommentsList.swift */,
+				3F7D94A529B39FF50079A466 /* CommentRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +223,7 @@
 			children = (
 				3F7D946F29A6F33D0079A466 /* Post.swift */,
 				3F7D949929AFF7720079A466 /* User.swift */,
+				3F7D949D29B395930079A466 /* Comment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +236,8 @@
 				3F7D948F29AEE2400079A466 /* AuthViewModel.swift */,
 				3F7D949529AEF2670079A466 /* FormVIewModel.swift */,
 				3F7D949B29B030680079A466 /* ViewModelFactory.swift */,
+				3F7D94A129B39C150079A466 /* CommentsViewModel.swift */,
+				3F7D94A729B3AA1A0079A466 /* CommentRowViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -227,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				3F7D947B29A7986F0079A466 /* PostsRepository.swift */,
+				3F7D949F29B3963B0079A466 /* CommentsRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -235,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				3F7D947E29A7EE460079A466 /* Loadable.swift */,
+				3F7D94A929B3AC5F0079A466 /* ErrorHandler.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -405,20 +426,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7D949829AF96730079A466 /* PrimaryButtonStyle.swift in Sources */,
+				3F7D94A029B3963B0079A466 /* CommentsRepository.swift in Sources */,
 				3F7D948629A8F9B50079A466 /* PostRowViewModel.swift in Sources */,
 				3F7D947029A6F33D0079A466 /* Post.swift in Sources */,
 				3F5B93D929A6DA960019CEEC /* SocialcademyApp.swift in Sources */,
 				3F7D947C29A7986F0079A466 /* PostsRepository.swift in Sources */,
+				3F7D94AA29B3AC5F0079A466 /* ErrorHandler.swift in Sources */,
 				3F7D948829AECEB30079A466 /* MainTabView.swift in Sources */,
+				3F7D94A429B39D6E0079A466 /* CommentsList.swift in Sources */,
 				3F7D947929A715CC0079A466 /* PostsViewModel.swift in Sources */,
 				3F7D948E29AEDE1E0079A466 /* AuthService.swift in Sources */,
 				3F7D949629AEF2670079A466 /* FormVIewModel.swift in Sources */,
+				3F7D94A829B3AA1A0079A466 /* CommentRowViewModel.swift in Sources */,
+				3F7D94A629B39FF50079A466 /* CommentRow.swift in Sources */,
 				3F7D947429A6F5900079A466 /* PostRow.swift in Sources */,
+				3F7D949E29B395930079A466 /* Comment.swift in Sources */,
 				3F7D949429AEE5E20079A466 /* ProfileView.swift in Sources */,
 				3F7D947F29A7EE460079A466 /* Loadable.swift in Sources */,
 				3F7D947229A6F3C80079A466 /* PostsList.swift in Sources */,
 				3F7D949C29B030680079A466 /* ViewModelFactory.swift in Sources */,
 				3F7D949029AEE2400079A466 /* AuthViewModel.swift in Sources */,
+				3F7D94A229B39C150079A466 /* CommentsViewModel.swift in Sources */,
 				3F7D949229AEE5080079A466 /* AuthView.swift in Sources */,
 				3F7D948429A854A50079A466 /* Alert+Error.swift in Sources */,
 				3F7D947629A70F640079A466 /* NewPostForm.swift in Sources */,

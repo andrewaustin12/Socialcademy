@@ -14,6 +14,8 @@ struct PostRow: View {
     
     @State private var showConfirmationDialog = false
     
+    @EnvironmentObject private var factory: ViewModelFactory
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
@@ -31,6 +33,12 @@ struct PostRow: View {
                 FavoriteButton(isFavorite: viewModel.isFavorite, action: {
                     viewModel.favoritePost()
                 })
+                NavigationLink {
+                    CommentsList(viewModel: factory.makeCommentsViewModel(for: viewModel.post))
+                } label: {
+                    Label("Comments", systemImage: "text.bubble")
+                        .foregroundColor(.secondary)
+                }
                 Spacer()
                 if viewModel.canDeletePost {
                     Button(role: .destructive, action: {
