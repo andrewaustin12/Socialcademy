@@ -38,5 +38,3 @@ extension Post {
         author: User.testUser
     )
 }
-
-

@@ -8,7 +8,6 @@
 import Foundation
 import FirebaseStorage
 
-
 struct StorageFile {
     private let storageReference: StorageReference
     
@@ -40,4 +39,3 @@ extension StorageFile {
         return StorageFile(storageReference: storageReference)
     }
 }
-

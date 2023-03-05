@@ -97,5 +97,3 @@ struct CommentsList_Previews: PreviewProvider {
     }
 }
 #endif
-
-
